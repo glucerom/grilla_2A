@@ -1,9 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
 .micoA {
-  background: #3f5a61;
+  /*background: #3f5a61;*/
+  background: #cccccc;
 }
 .micoB {
-  background: #315d50;
+  /*background: #315d50;*/
+  background: #cbbeb5;
+}
+.libre {
+  background: #ffc3a0;
 }
 .blue {
   background: #3498db;
@@ -30,13 +35,17 @@
 }
 
 .cs335, .cs426, .md303, .md352, .md313, .cs240 {
-  font-weight: 300;
+  /*font-weight: 300;*/
+  font-weight: bolder;
   cursor: pointer;
   text-align: center;    
+  color: black;
+
 }
 
 body {
-  background: #e74c3c;
+  /* background: #e74c3c; */
+  background: #bc7b77;
   padding: 20px;
 }
 
@@ -63,11 +72,12 @@ table tr:nth-child(2n+3) {
 table th, table td {
   padding: 0.8em;
   width: 10em;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .recreo {
-    background: #2ecc71;
+    /*background: #2ecc71;*/
+    background: #eae5e1    ;
     text-transform: uppercase;
     font-size: 0.8em;
     font-weight: bold;
@@ -78,7 +88,7 @@ table th, table td {
 }
 
 .separador {
-  background: #2ecc71;
+  background: #eae5e1;
   text-transform: uppercase;
   font-size: 0.8em;
   font-weight: bold;
@@ -88,8 +98,18 @@ table th, table td {
   padding: 0.2em;
 }
 
-.days, .time, .hora {
-  background: #34495e;
+.hora_salida{
+    background: #664e55;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;  
+}
+
+.days, .time, .hora  {
+  /*background: #272C33;*/
+  background: #664e55;
   text-transform: uppercase;
   font-size: 0.8em;
   text-align: center;
